@@ -1,7 +1,7 @@
 # Sandeep Nadendla
 # Example mapper
 
-f = open("d.txt","r")           # open file, read-only
+f = open("purchases.txt","r")           # open file, read-only
 for line in f:  
     dataList = line.strip().split("    ")    # count the spaces!
     print (dataList   )
