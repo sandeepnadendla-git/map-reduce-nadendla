@@ -3,7 +3,7 @@
 
 
 
-inFile = open("output01.txt","r")  # open file, read-only
+inFile = open("sorted01.txt","r")  # open file, read-only
 outFile = open("reduced01.txt", "w") # open file, write
 
 thisKey = ""
